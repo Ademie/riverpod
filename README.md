@@ -20,3 +20,8 @@ notifyListeners
 ConsumerWidget
 ref.watch(riverpod).name
 ref.read(riverpod).changeName(newName: newValue)
+
+
+### PS 
+# Watch = Listen to changes
+# Read = Don't listen to but edit the value
