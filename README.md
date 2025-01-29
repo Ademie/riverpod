@@ -2,22 +2,21 @@
 
 A new Flutter project.
 
-## Getting Started
 
-<!-- EASY LEVEL -->
+# EASY LEVEL
 # StateProvider
 
-# ConsumerWidet
-# ref.watch(riverpod)
-# ref.read(riverpod.notifier).state
+ConsumerWidet
+ref.watch(riverpod)
+ref.read(riverpod.notifier).state
 
 
-<!-- HARD LEVEL WITH A MODEL-->
-
+# HARD LEVEL WITH A MODEL
 # ChangeNotifierProvider
-# ChangeNotifier
-# notifyListeners
 
-# ConsumerWidget
-# ref.watch(riverpod).name
-# ref.read(riverpod).changeName(newName: newValue)
+ChangeNotifier
+notifyListeners
+
+ConsumerWidget
+ref.watch(riverpod).name
+ref.read(riverpod).changeName(newName: newValue)
