@@ -9,3 +9,9 @@ final riverpodEasy = StateProvider<int>((ref){
 final riverpodHard = ChangeNotifierProvider<RiverModel>((ref){
   return RiverModel(counter: 0);
 });
+
+
+
+final riverpodBest = StateNotifierProvider<RiverModelNotifier, int>((ref){
+  return RiverModelNotifier();
+});
